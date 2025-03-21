@@ -10,7 +10,7 @@ public class PacketsStop : TerrariaPlugin
 {
 
     public override string Name => System.Reflection.Assembly.GetExecutingAssembly().GetName().Name!;
-    public override Version Version => new Version(1, 0, 5);
+    public override Version Version => new Version(1, 0, 6);
     public override string Author => "羽学 感谢少司命";
     public override string Description => GetString("拦截没有指定权限的用户组数据包");
 
@@ -73,11 +73,14 @@ public class PacketsStop : TerrariaPlugin
     private void Command(CommandArgs args)
     {
 
+    if (args.Parameters.Count == 0)
+    {
         this._Enabled = !this._Enabled;
         TSPlayer.All.SendInfoMessage(this._Enabled
             ? GetString("[数据包拦截]已启用")
             : GetString("[数据包拦截]已禁用"));
-
+        return;
+    }
 
         if (args.Parameters.Count != 2)
         {
