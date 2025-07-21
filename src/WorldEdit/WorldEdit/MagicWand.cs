@@ -16,18 +16,18 @@ public class MagicWand
 
     public MagicWand()
     {
-        dontCheck = true;
+        this.dontCheck = true;
     }
 
     public MagicWand(WEPoint[] Points)
     {
-        dontCheck = false;
+        this.dontCheck = false;
         this.Points = Points?.ToList() ?? new List<WEPoint>();
     }
 
     public bool InSelection(int X, int Y)
     {
-        return dontCheck || Points.Any(p => p.X == X && p.Y == Y);
+        return this.dontCheck || this.Points.Any(p => p.X == X && p.Y == Y);
     }
 
     public static bool GetMagicWandSelection(int X, int Y, Expression Expression, TSPlayer Player, out MagicWand MagicWand)
@@ -42,17 +42,17 @@ public class MagicWand
             return false;
         }
 
-        short x = (short) X;
-        short y = (short) Y;
-        List<WEPoint> points = new List<WEPoint> { new WEPoint(x, y) };
-        int count = 0;
-        bool[,] visited = new bool[Main.maxTilesX, Main.maxTilesY];
+        var x = (short) X;
+        var y = (short) Y;
+        var points = new List<WEPoint> { new WEPoint(x, y) };
+        var count = 0;
+        var visited = new bool[Main.maxTilesX, Main.maxTilesY];
         visited[x, y] = true;
 
-        for (int i = 0; i < points.Count; i++)
+        for (var i = 0; i < points.Count; i++)
         {
-            WEPoint current = points[i];
-            WEPoint[] neighbors = new WEPoint[]
+            var current = points[i];
+            var neighbors = new WEPoint[]
             {
                 new WEPoint((short)(current.X + 1), current.Y),
                 new WEPoint((short)(current.X - 1), current.Y),
@@ -60,7 +60,7 @@ public class MagicWand
                 new WEPoint(current.X, (short)(current.Y - 1))
             };
 
-            foreach (WEPoint neighbor in neighbors)
+            foreach (var neighbor in neighbors)
             {
                 if (Tools.InMapBoundaries(neighbor.X, neighbor.Y) && !visited[neighbor.X, neighbor.Y])
                 {

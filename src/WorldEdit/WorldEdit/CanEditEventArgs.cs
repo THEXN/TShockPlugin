@@ -24,6 +24,6 @@ public class CanEditEventArgs : EventArgs
 		this.Y = Y;
 		this.X2 = X2;
 		this.Y2 = Y2;
-		CanEdit = null;
+		this.CanEdit = null;
 	}
 }
