@@ -71,7 +71,7 @@
 | [AutoBroadcast](./src/AutoBroadcast/README.md) | 0.0% | Transmisión automática | [LazyAPI](./src/LazyAPI/README.md) |
 | [AutoClear](./src/AutoClear/README.md) | 0.0% | Limpieza automática inteligente | [LazyAPI](./src/LazyAPI/README.md) |
 | [AutoFish](./src/AutoFish/README.md) | 0.0% | 自动钓鱼重置版 | [LazyAPI](./src/LazyAPI/README.md) |
-| [AutoPluginManager](./src/AutoPluginManager/README.es-ES.md) | 61.5% | Actualice los complementos automáticamente con una sola tecla |  |
+| [AutoPluginManager](./src/AutoPluginManager/README.es-ES.md) | 55.4% | Actualice los complementos automáticamente con una sola tecla |  |
 | [AutoReset](./src/AutoReset/README.md) | 0.0% | Reinicio completamente automático | [LazyAPI](./src/LazyAPI/README.md) |
 | [AutoStoreItems](./src/AutoStoreItems/README.md) | 0.0% | Almacenamiento automático | [LazyAPI](./src/LazyAPI/README.md) |
 | [AutoTeam](./src/AutoTeam/README.md) | 0.0% | Formación automática de equipos | [LazyAPI](./src/LazyAPI/README.md) |
@@ -115,7 +115,7 @@
 | [DwTP](./src/DwTP/README.md) | 0.0% | Teletransportación por posicionamiento |  |
 | [Economics.Core](./src/Economics.Core/README.md) | 0.0% | Plugin económico |  |
 | [Economics.Deal](./src/Economics.Deal/README.md) | 0.0% | Plugin de comercio | [Economics.Core](./src/Economics.Core/README.md) |
-| [Economics.NPC](./src/Economics.NPC/README.md) | 0.0% | Recompensas personalizadas de monstruos | [Economics.Core](./src/Economics.Core/README.md) |
+| [Economics.NPC](./src/Economics.NPC/README.md) | 0.0% | Recompensas personalizadas de monstruos | [Economics.Core](./src/Economics.Core/README.md) [Economics.Script]() |
 | [Economics.Projectile](./src/Economics.Projectile/README.md) | 0.0% | Proyectiles personalizados | [Economics.Core](./src/Economics.Core/README.md) [Economics.RPG](./src/Economics.RPG/README.md) |
 | [Economics.Regain](./src/Economics.Regain/README.md) | 0.0% | Reciclaje de objetos | [Economics.Core](./src/Economics.Core/README.md) |
 | [Economics.RPG](./src/Economics.RPG/README.md) | 0.0% | Plugin RPG | [Economics.Core](./src/Economics.Core/README.md) |
@@ -127,6 +127,7 @@
 | [EssentialsPlus](./src/EssentialsPlus/README.es-ES.md) | 94.2% | Comandos de gestión adicionales | [LazyAPI](./src/LazyAPI/README.md) |
 | [Ezperm](./src/Ezperm/README.md) | 0.0% | Cambio por lotes de permisos |  |
 | [FishShop](https://github.com/UnrealMultiple/TShockFishShop/blob/master/README.md) | 0.0% | Tienda de peces |  |
+| [FullHealthRespawn](./src/FullHealthRespawn/README.md) | 0.0% | Restaurar salud completa al reaparecer |  |
 | [GenerateMap](./src/GenerateMap/README.md) | 0.0% | Generar mapas |  |
 | [GhostView](./src/GhostView/README.md) | 0.0% | espectar en modo fantasma tras la muerte, la reconexión no reinicia el tiempo de reaparición |  |
 | [GolfRewards](./src/GolfRewards/README.md) | 0.0% | Recompensas de golf |  |

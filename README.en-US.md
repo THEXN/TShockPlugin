@@ -66,9 +66,9 @@
 | [AnnouncementBoxPlus](./src/AnnouncementBoxPlus/README.en-US.md) | 100.0% | Enhance Broadcast Box Functionality | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [AutoAirItem](./src/AutoAirItem/README.en-US.md) | 100.0% | Automatic trash cans | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [AutoBroadcast](./src/AutoBroadcast/README.en-US.md) | 100.0% | Automatic broadcast | [LazyAPI](./src/LazyAPI/README.en-US.md) |
-| [AutoClear](./src/AutoClear/README.en-US.md) | 75.0% | Intelligent automatic cleaning | [LazyAPI](./src/LazyAPI/README.en-US.md) |
+| [AutoClear](./src/AutoClear/README.en-US.md) | 37.5% | Intelligent automatic cleaning | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [AutoFish](./src/AutoFish/README.en-US.md) | 4.0% | Automatic fishing Reload | [LazyAPI](./src/LazyAPI/README.en-US.md) |
-| [AutoPluginManager](./src/AutoPluginManager/README.en-US.md) | 89.2% | Update plugins automatically in one key |  |
+| [AutoPluginManager](./src/AutoPluginManager/README.en-US.md) | 81.5% | Update plugins automatically in one key |  |
 | [AutoReset](./src/AutoReset/README.en-US.md) | 86.7% | Fully automatic reset | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [AutoStoreItems](./src/AutoStoreItems/README.en-US.md) | 100.0% | Automatic storage | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [AutoTeam](./src/AutoTeam/README.en-US.md) | 100.0% | Automatic team formation | [LazyAPI](./src/LazyAPI/README.en-US.md) |
@@ -112,7 +112,7 @@
 | [DwTP](./src/DwTP/README.en-US.md) | 100.0% | Positioning Teleport |  |
 | [Economics.Core](./src/Economics.Core/README.en-US.md) | 17.5% | Economic plugin prerequisite |  |
 | [Economics.Deal](./src/Economics.Deal/README.en-US.md) | 83.9% | Trading plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) |
-| [Economics.NPC](./src/Economics.NPC/README.en-US.md) | 100.0% | Custom monster rewards | [Economics.Core](./src/Economics.Core/README.en-US.md) |
+| [Economics.NPC](./src/Economics.NPC/README.en-US.md) | 100.0% | Custom monster rewards | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.Script]() |
 | [Economics.Projectile](./src/Economics.Projectile/README.en-US.md) | 100.0% | Custom projectiles | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
 | [Economics.Regain](./src/Economics.Regain/README.en-US.md) | 100.0% | Item recycling | [Economics.Core](./src/Economics.Core/README.en-US.md) |
 | [Economics.RPG](./src/Economics.RPG/README.en-US.md) | 93.5% | RPG plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) |
@@ -124,6 +124,7 @@
 | [EssentialsPlus](./src/EssentialsPlus/README.en-US.md) | 94.9% | Additional management commands | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [Ezperm](./src/Ezperm/README.en-US.md) | 83.3% | Batch change permissions |  |
 | [FishShop](https://github.com/UnrealMultiple/TShockFishShop/blob/master/README.md) | 0.0% | Fish shop |  |
+| [FullHealthRespawn](./src/FullHealthRespawn/README.md) | 0.0% | Restore full health on respawn |  |
 | [GenerateMap](./src/GenerateMap/README.en-US.md) | 11.1% | Generate map |  |
 | [GhostView](./src/GhostView/README.md) | 0.0% | spectate in ghost mode after death, reconnect does not reset respawn cooldown |  |
 | [GolfRewards](./src/GolfRewards/README.en-US.md) | 100.0% | Golf rewards |  |
